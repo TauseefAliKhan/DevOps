@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digi-Kart | Electronic Components & Maker Supplies</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts for modern typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span class="logo-icon">⚡</span> Digi-<span class="highlight">Kart</span>
+      </a>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Search resistors, motors, breadboards..." />
+        <button type="button">🔍</button>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#products">Products</a>
+        <a href="#categories">Categories</a>
+        <a href="#about">About Us</a>
+        <a href="#cart" class="cart-btn">
+          🛒 Cart <span class="cart-count">3</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Power Your Next Big Project</h1>
+      <p>High-quality electronic components, development boards, and sensors for makers, students, and engineers.</p>
+      <a href="#products" class="btn-primary">Shop Components</a>
+    </div>
+  </section>
+
+  <!-- Main Content Container -->
+  <main class="container">
+
+    <!-- Categories Section -->
+    <section id="categories" class="section">
+      <h2 class="section-title">Popular Categories</h2>
+      <div class="category-grid">
+        <div class="category-card">
+          <span class="cat-icon">⚡</span>
+          <h3>Prototyping</h3>
+          <p>Breadboards, Jumper Wires, PCB</p>
+        </div>
+        <div class="category-card">
+          <span class="cat-icon">🔌</span>
+          <h3>Passives</h3>
+          <p>Resistors, Capacitors, Diodes</p>
+        </div>
+        <div class="category-card">
+          <span class="cat-icon">⚙️</span>
+          <h3>Motors & Actuators</h3>
+          <p>DC Motors, Servos, Steppers</p>
+        </div>
+        <div class="category-card">
+          <span class="cat-icon">🧠</span>
+          <h3>Microcontrollers</h3>
+          <p>Arduino, ESP32, Raspberry Pi</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="products" class="section">
+      <h2 class="section-title">Featured Electronic Components</h2>
+      <div class="product-grid">
+
+        <!-- Product 1 -->
+        <div class="product-card">
+          <div class="product-badge">Best Seller</div>
+          <div class="product-img-placeholder">🍞</div>
+          <div class="product-info">
+            <span class="category-tag">Prototyping</span>
+            <h3>Solderless Breadboard 830 Point</h3>
+            <p class="description">Ideal for experimental design circuit building in labs or DIY projects.</p>
+            <div class="product-bottom">
+              <span class="price">$4.99</span>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <div class="product-img-placeholder">⚡</div>
+          <div class="product-info">
+            <span class="category-tag">Passives</span>
+            <h3>Assorted Resistor Kit (600 Pcs)</h3>
+            <p class="description">1/4W Metal Film Resistors covering 30 values from 10Ω to 1MΩ.</p>
+            <div class="product-bottom">
+              <span class="price">$8.50</span>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <div class="product-img-placeholder">🔺</div>
+          <div class="product-info">
+            <span class="category-tag">Diodes & LEDs</span>
+            <h3>1N4007 Rectifier Diode Pack</h3>
+            <p class="description">Standard recovery 1A 1000V general purpose rectifiers ( Pack of 50 ).</p>
+            <div class="product-bottom">
+              <span class="price">$3.25</span>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+          <div class="product-badge">Popular</div>
+          <div class="product-img-placeholder">⚙️</div>
+          <div class="product-info">
+            <span class="category-tag">Motors</span>
+            <h3>SG90 Micro Servo Motor 9g</h3>
+            <p class="description">High-speed mini servo for RC planes, robotics, and small DIY projects.</p>
+            <div class="product-bottom">
+              <span class="price">$2.99</span>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+          <div class="product-img-placeholder">🔋</div>
+          <div class="product-info">
+            <span class="category-tag">Motors & Drivers</span>
+            <h3>L298N Dual H-Bridge Motor Driver</h3>
+            <p class="description">Drives stepper motors and DC motors with voltage regulation.</p>
+            <div class="product-bottom">
+              <span class="price">$5.40</span>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+          <div class="product-img-placeholder">💡</div>
+          <div class="product-info">
+            <span class="category-tag">Optoelectronics</span>
+            <h3>5mm LED Assortment Kit (300 Pcs)</h3>
+            <p class="description">Red, Green, Yellow, Blue, and White diffused LEDs for indicators.</p>
+            <div class="product-bottom">
+              <span class="price">$6.99</span>
+              <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3>⚡ Digi-Kart</h3>
+        <p>Your one-stop marketplace for electronics prototyping, robotics, and circuit components.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">All Components</a></li>
+          <li><a href="#">Breadboards & Wire</a></li>
+          <li><a href="#">Semiconductors</a></li>
+          <li><a href="#">Motors & Robotics</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Track Order</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Returns & Refunds</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Newsletter</h4>
+        <p>Subscribe to get updates on new components & deals.</p>
+        <div class="newsletter-form">
+          <input type="email" placeholder="Your email address" />
+          <button>Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Digi-Kart. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
